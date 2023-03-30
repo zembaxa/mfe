@@ -7,7 +7,7 @@ const root = createRoot(container!); // createRoot(container!) if you use TypeSc
 
 const App = () => (
   <div className="container">
-    <div>Name: remote</div>
+    <div>Name: remote1</div>
     <Counter />
   </div>
 );

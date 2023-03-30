@@ -42,9 +42,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "remote1",
       filename: "remoteEntry.js",
-      remotes: {
-        remote2: "remote2@http://localhost:8070/remoteEntry.js"
-      },
+      remotes: {},
       exposes: {
         "./Counter": "./src/Counter.tsx"
       },

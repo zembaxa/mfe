@@ -19,6 +19,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.png/,
+        type: 'asset/resource'
+      },
+      {
         test: /\.m?js/,
         type: "javascript/auto",
         resolve: {
@@ -45,7 +49,7 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {
-        "./Test": "./src/Test.tsx"
+        "./Card": "./src/Card.tsx"
       },
       shared: {
         ...deps,
