@@ -43,5 +43,13 @@ export default defineConfig({
 
 vite build --minify=false --sourcemap=inline
 
+pnpm install react-bootstrap bootstrap
+
+pnpm install @mui/material @emotion/react @emotion/styled
+
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Button from '@mui/material/Button';
 
 
