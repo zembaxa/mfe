@@ -1,11 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import App2 from 'app2/App';
+import { useContext } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import App2 from "app2/App";
+import { CountContext } from "app2/CountContext";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const { count, setCount } = useContext(CountContext);
 
   return (
     <>
@@ -33,7 +34,7 @@ function App() {
       </div>
       <App2 />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -21,6 +21,7 @@ export default defineConfig({
       exposes: {
         "./Hello": "./src/Hello.jsx",
         "./App": "./src/App.jsx",
+        "./CountContext": "./src/CountContext.jsx",
       },
       shared: [
         {
