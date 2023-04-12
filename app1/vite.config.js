@@ -30,6 +30,7 @@ export default defineConfig({
           "react-dom": {
             singleton: true,
           },
+          "random-number": {}
         },
       ],
     }),

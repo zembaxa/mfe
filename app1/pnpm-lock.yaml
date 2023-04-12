@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  random-number:
+    specifier: ^0.0.9
+    version: 0.0.9
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -753,6 +756,10 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
     dev: true
+
+  /random-number@0.0.9:
+    resolution: {integrity: sha512-ipG3kRCREi/YQpi2A5QGcvDz1KemohovWmH6qGfboVyyGdR2t/7zQz0vFxrfxpbHQgPPdtVlUDaks3aikD1Ljw==}
+    dev: false
 
   /react-dom@18.2.0(react@18.2.0):
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}

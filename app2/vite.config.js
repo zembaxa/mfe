@@ -6,7 +6,7 @@ import federation from "@originjs/vite-plugin-federation";
 export default defineConfig({
   build: {
     target: "esnext",
-    watch: true
+    watch: true,
   },
   preview: {
     port: 5001,
@@ -31,6 +31,7 @@ export default defineConfig({
           "react-dom": {
             singleton: true,
           },
+          "random-number": {},
         },
       ],
     }),
